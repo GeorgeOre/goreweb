@@ -1,6 +1,6 @@
 // Function to play sound
 function playSound() {
-    var audio = new Audio('assets/sounds/BadToTheBonesRiff.ogg');
+    var audio = new Audio('../assets/sounds/BadToTheBonesRiff.ogg');
     audio.play();
 }
 
