@@ -1,7 +1,9 @@
 // Function to play sound
 function playSound() {
     var audio = new Audio('../assets/sounds/BadToTheBonesRiff.ogg');
-    audio.play();
+    audio.play().catch(function(error) {
+        console.log('Audio playback failed: ' + error);
+    });
 }
 
 // Wait for the DOM to be fully loaded before running the script
