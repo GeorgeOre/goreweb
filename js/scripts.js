@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Function to play sound
     function playSound() {
-        const audio = new Audio('/assets/sounds/BadToTheBonesRiff.ogg');
+        const audio = new Audio('/goreweb/assets/sounds/BadToTheBonesRiff.ogg');
         audio.play();
     }
 
